@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #181818;
+    color: white;
+    /* font-family: Sans-serif; */
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    letter-spacing: 0!important;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.name{
+    position: relative;
+    float: left;
+    height: 80px;
+    width: 200px;
+}
+.name img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.search{
+    float: right;
+    height: 70px;
+    padding: 25px 20px 30px 20px;
+    background: black;
+}
+.button1{
+    background: red;
+    text-decoration: none;
+    margin: 0 5px 0 8px;
+    padding: 5px 20px 8px 20px;
+}
+.button2{
+    font-size: 15px;
+    padding: 9px 12px;
+    /* padding: 5px 15px; */
+    text-decoration: none; 
+    border: 1px solid #888;
+    border-radius: 2px;
+    font-weight: 400;
+    line-height: 13px;
+    white-space: nowrap;
+}
+/* .backbody{
+    background-image: url('imgs/images.jpg');
+    z-index: -1;
+} */
+.header{
+    width: 35%;
+    margin: 100px auto 80px 50px;
+}
+h1{
+    word-wrap: break-word;
+    font-size: 2.75rem;
+    font-weight: 900;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 40%);
+    margin-bottom: 10px;
+}
+.header p{
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 60%);
+}
+.cards1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.cards2{
+    /* background: black; */
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.section{
+    text-align: center;
+    width: 60%;
+    margin: 250px 20% 150px 20%;
+}
+.section p{
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 60%);
+    margin-bottom: 50px;
+}
+.section .button1{
+    background: red;
+    text-decoration: none;
+    padding: 10px 40px 12px 40px;
+    font-size: 25px;
+}
+.ques{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: #737373;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    width: 80%;
+}
+.footer li{
+    list-style: none;
+    color: #737373;
+    font-size: 15px;
+    padding: 5px;
+}
+
